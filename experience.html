@@ -4,20 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Joshua's Resume</title>
 </head>
+
 <body>
-    <h1>Resume</h1>
-    <main>
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>Bentley School (2013-2017)</li>
-                <li>Pepperdine University (2017-2021)</li>
-                <ul><li><em>Bachelors of Science in Physics</em></li></ul>
-            </ul>
-        </section>
-    </main>
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Joshua Vasquez</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <img src="images/me.png" alt="Drawing of Joshua Vasquez" class="profile-image">
+        <h1 class="tag name">Josh's Resume.</h1>
+        <p class="tag location">This is my experience.</p>
+    </header>
     
+    <main class="flex">
+        <div class="card">
+          <h2>Education</h2>
+          <ul>
+            <li>Bentley School (2013-2017)</li>
+            <li>Pepperdine University (2017-2021)</li>
+            <ul>
+                <li><em>Bachelors of Science in Physics</em></li>
+            </ul>
+          </ul>
+        </div> 
+    
+        <div class="card">
+          <h2>Work Experience</h2>
+            <ul>
+                <li>Nanotego (Feb 2021-May 2021) - Software Developer Intern</li>
+                <ul><li>Utilized Linux and applied knowledge of ethical hacking.
+                    Conducted early-stage testing of the autonomous
+                    cybersecurity defense agent by programming a Raspberry
+                    Pi. Assisted in programming and testing of an early-stage
+                    defense agent. This was done by creating a program that
+                    polled the speed of a motor and prevented passing any
+                    abnormal commands the motor was given.
+                    </li>
+                </ul>
+                    <hr>
+                <li>Pepperdine University Undergraduate Physics Research (2017-2020)</li>
+                <ul>
+                    <li>Created and implemented new programs. Contributed to
+                    ongoing physics research on Anharmonic Oscillator, Graph
+                    Theory, and the Aurora Borealis.
+                    Created a program in R that creates a visualization and
+                    the desired calculations for a user-inputted graph.
+                    Additionally, gave multiple poster presentations at the
+                    Pepperdine Research Symposium on findings for the
+                    Magnetic Reconnection theory for the Aurora Borealis.</li>
+                </ul>
+            </ul>
+        </div> 
+    
+      </main>
 </body>
+
 </html>
+
+

@@ -151,8 +151,11 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.mail {
+  background-image: url(images/mail.svg);
+  background-color: #0399ff;
+  color: white;
+  border-radius: 1rem;
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -205,3 +208,18 @@ a.social:hover {
 
 }
 
+.education {
+  text-align: left;
+  width:325px;
+  margin: auto;
+}
+
+.work {
+  text-align: left;
+  width: 600px;
+  margin: auto;
+}
+
+.section-title{
+  text-align: center;
+}
